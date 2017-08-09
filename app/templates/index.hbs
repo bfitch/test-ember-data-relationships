@@ -1,0 +1,6 @@
+<ul>
+  {{#each model as |post|}}
+    <li>{{post.title}} by {{post.user.name}}!</li>
+    <!-- <li>{{post.user.posts.length}}</li> -->
+  {{/each}}
+</ul>
